@@ -21,12 +21,13 @@ The project contains **3 pages**:
 ---
 
 ## 🖼️ Screenshots
-
-### Dashboard 1 — Price & Growth Analysis
 ![Images](https://github.com/saeedullah-tech/REAL-ESTATE-dashboard/blob/615215aca19ea5119874c2ede43daea642b0e615/Power%20BI%20Desktop%2003_04_2026%2012_18_36.png)
 
+### Dashboard 1 — Price & Growth Analysis
+![Images](https://github.com/saeedullah-tech/REAL-ESTATE-dashboard/blob/478561926d32a2a1eca5c53b12d2e515036d76b3/Power%20BI%20Desktop%2003_04_2026%2012_33_32.png)
+
 ### Dashboard 2 — Amenities & Delay Analysis
-![Dashboard 2](screenshots/dashboard2.png)
+![Dashboard 2](https://github.com/saeedullah-tech/REAL-ESTATE-dashboard/blob/478561926d32a2a1eca5c53b12d2e515036d76b3/Power%20BI%20Desktop%2003_04_2026%2012_34_58.png)
 
 ---
 
