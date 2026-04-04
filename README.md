@@ -128,12 +128,3 @@ SWITCH(TRUE(),
     [ROI %] > 5,  "Low",
     "Not Profitable"
 )
-```
-
----
-
-
-## 📄 License
-
-This project is for educational and portfolio purposes.
-![image](https://github.com/saeedullah-tech/REAL-ESTATE-dashboard/blob/6f9f578ba86e02c6622f699c2b9a8d0818edd07e/Power%20BI%20Desktop%2003_04_2026%2012_18_36.png)
