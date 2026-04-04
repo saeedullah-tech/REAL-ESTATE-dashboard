@@ -170,36 +170,3 @@ real-estate-growth-tracker/
 └── data/                     # Source data (if applicable)
     └── real_estate_data.csv
 ```
-
----
-
-## How to Run
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/real-estate-growth-tracker.git
-   ```
-
-2. **Open the file**
-   - Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
-   - Open `realstate.pbix`
-
-3. **Explore the dashboards**
-   - Navigate between the 3 pages using the tab bar at the bottom
-   - Use slicers (Property Type, City, Country) to filter dynamically
-   - Click toggle buttons to switch between **Avg Price** and **Price per m²** views
-   - Hold `Ctrl + Click` on buttons when in Edit mode
-
----
-
-## Author
-
-**Your Name**  
-- GitHub: [@your-username](https://github.com/your-username)  
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
-
----
-
-## License
-
-This project is for educational and portfolio purposes.
