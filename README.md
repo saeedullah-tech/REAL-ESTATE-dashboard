@@ -1,22 +1,10 @@
+
 # 🏠 Real Estate Growth Tracker — Power BI Dashboard
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-![Pages](https://img.shields.io/badge/Pages-3-blue?style=for-the-badge)
+An interactive Power BI dashboard designed to analyze **Property Pricing, Market Growth, Amenities Impact, Sales Delay Causes, and Geographic Distribution** across major European cities.
 
-A comprehensive **Real Estate Analytics Dashboard** built in Power BI that tracks property pricing, growth trends, amenities impact, and market delay causes across major European cities.
-
----
-
-## 📊 Dashboard Overview
-
-The project contains **3 pages**:
-
-| Page | Name | Description |
-|------|------|-------------|
-| 1 | `presented by` | Introduction / landing page |
-| 2 | `dashboard1` | Main KPIs, price analysis, property features |
-| 3 | `dashboard2` | Amenities table, map, delay causes analysis |
+This project uncovers the hidden relationship between:
+**Property Value – Location – Amenities – Market Speed** within a single analytical model that enables real estate decision-makers to see what traditional reports fail to reveal.
 
 ---
 
@@ -29,89 +17,108 @@ The project contains **3 pages**:
 ### Dashboard 2 — Amenities & Delay Analysis
 ![Dashboard 2](https://github.com/saeedullah-tech/REAL-ESTATE-dashboard/blob/478561926d32a2a1eca5c53b12d2e515036d76b3/Power%20BI%20Desktop%2003_04_2026%2012_34_58.png)
 
----
+## Project Objective
 
-## 📈 Key Metrics Tracked
+Transform complex, scattered real estate data into clear, actionable insights to:
 
-| KPI | Value (Sample) |
-|-----|---------------|
-| 💰 Avg Price | £635K |
-| 📈 Sum of Price Growth | £23M |
-| 📐 Avg Price per m² | 3.15K |
-| 🏘️ Total Listings | 5K |
-
----
-
-## 🗺️ Features
-
-### Dashboard 1
-- **KPI Cards** — Avg Price, Price Growth, Price per m², Total Listings
-- **Pie Chart** — Prices/percentage of Different Property Types
-- **Dot Plot** — Avg Price per m² by Country and City (toggle between Avg Price / Price per m²)
-- **Bar Chart** — Property Features and Their Average Price (gym, parking spots)
-- **Bar Chart** — Price by Bathrooms, Bedrooms & Age Group
-- **Slicers** — Filter by Property Type, City, Country
-
-### Dashboard 2
-- **Data Table** — Amenities breakdown (elevator, swimming pool, gym, parking) per property
-- **Map Visual** — % GT Sum of Price Growth by City and Country (geographic view)
-- **Scatter Plot** — Causes of Property Delay Sales by Price Status and Property Type
-- **Bar Charts** — Count of Days on Market by City and Property Type
+- Measure actual property price growth across cities and countries
+- Identify which property types generate the highest returns
+- Evaluate the impact of premium amenities on pricing
+- Detect properties with the longest time on market and understand why
+- Analyze price per m² across geographic regions
+- Connect poor listing data quality directly to sales delays and revenue loss
 
 ---
 
-## 🏙️ Cities Covered
+## Challenges in Real Estate Data
+
+Real estate data is one of the most difficult types of data to analyze because it is:
+
+- Distributed across **5,000+ property listings**
+- Spread over multiple domains (Residential, Commercial, Mixed-Use, Retail, Office, Warehouse)
+- Geographically sensitive — tied to **Latitude & Longitude coordinates**
+- Operationally complex with overlapping variables (age, amenities, size, location)
+- Lacking direct linkage between quality, cost, and risk in traditional reporting systems
+
+---
+
+## Tools & Techniques
+
+- **Power BI Desktop**
+- **Data Modeling**
+- **DAX Measures**
+- **KPI Design for Real Estate Analytics**
+- **Microsoft Bing Maps Integration**
+- **Data Storytelling**
+
+---
+
+## Key Metrics in the Dashboard
+
+- Avg Price vs Target
+- Sum of Price Growth
+- Avg Price per m²
+- Total Listings Count
+- Days on Market by Property Type
+- Amenities Impact on Avg Price
+- Price by Bedrooms, Bathrooms & Age Group
+- Property Classification Distribution (Sensitive / Confidential)
+- Geographic Price Distribution (City & Country level)
+- Risk Exposure by Price Status (Overpriced / Below District / Normal)
+- Quality vs Compliance Scatter Analysis
+- Cost by Property Domain
+- Top High-Cost Property Owners
+- Governance Scorecard
+
+---
+
+## Business Value
+
+This project does not answer the question:
+
+> *What is the average property price?*
+
+It answers the more critical question:
+
+> **Where is the organization losing value due to overpriced listings, poor data quality, and weak market positioning?**
+
+The dashboard enables leadership to:
+
+- Make risk-driven investment and pricing decisions
+- Reduce remediation and long holding costs
+- Improve listing compliance and data accuracy
+- Target data quality improvements across property domains
+- Establish accountability for data owners and listing agents
+
+---
+
+## Dashboard Sections
+
+- **Governance Overview** — Top-level KPIs: Avg Price, Price Growth, Price per m², Total Listings
+- **Compliance & Risk Analysis** — Price Status breakdown: Overpriced, Below District Average, Normal, Slightly Overpriced
+- **Data Criticality & Sensitivity** — Property type distribution and pricing tier segments
+- **Geographic Distribution** — Map visual showing Price Growth % by City and Country across Europe
+- **Cost by Domain** — Avg Price and feature breakdown by property category
+- **High-Cost Owners** — Top data owners with highest operational and listing costs
+- **Quality vs Compliance** — Scatter analysis of price vs days on market per property type
+- **Governance Operational Details** — Granular amenities table with elevator, pool, gym, and parking data per listing
+
+---
+
+## Cities Covered
 
 Amsterdam · Berlin · Brussels · Lisbon · Madrid · Paris · Prague · Rome · Vienna · Warsaw
 
 ---
 
-## 🔍 Analysis Questions Answered
-
-- Which property types are most profitable?
-- Do premium amenities (parking, elevator, gym, pool) command higher prices?
-- Which properties stay longest on the market, and why?
-- How does price grow across different European cities?
-- What causes property sales delays (overpriced, below district average, slightly overpriced)?
-
----
-
-## 🛠️ Tools & Technologies
-
-- **Power BI Desktop** — Dashboard development
-- **DAX** — Custom measures and calculated columns
-- **Microsoft Bing Maps** — Geographic visualizations
-- **Excel / CSV** — Data source
-
----
-
-## 📁 Project Structure
-
-```
-real-estate-growth-tracker/
-│
-├── realstate.pbix          # Main Power BI project file
-├── README.md               # Project documentation
-│
-├── screenshots/            # Dashboard screenshots
-│   ├── dashboard1.png
-│   └── dashboard2.png
-│
-└── data/                   # Source data (if applicable)
-    └── real_estate_data.csv
-```
-
-
----
-
-## 📌 DAX Measures Used
+## DAX Measures Used
 
 ```dax
 -- Price Growth
 Price Growth % = 
 DIVIDE(
-    [Current Price] - [Last Sold Price],
-    [Last Sold Price]
+    SUM([Current Price]) - SUM([Last Sold Price]),
+    SUM([Last Sold Price])
 ) * 100
 
 -- Avg Price per m²
@@ -120,11 +127,79 @@ Avg Price Per M = DIVIDE(SUM([Price]), SUM([Area SQM]))
 -- Days on Market
 Days On Market = DATEDIFF([Listing Date], [Sale Date], DAY)
 
+-- Market Speed Classification
+Market Speed = 
+SWITCH(TRUE(),
+    [Days On Market] <= 30, "Fast (0-30 days)",
+    [Days On Market] <= 60, "Moderate (31-60 days)",
+    [Days On Market] <= 90, "Slow (61-90 days)",
+    "Very Slow (90+ days)"
+)
+
 -- Profitability Score
 Profitability Score = 
 SWITCH(TRUE(),
-    [ROI %] > 30, "High",
-    [ROI %] > 15, "Medium",
-    [ROI %] > 5,  "Low",
-    "Not Profitable"
+    [ROI %] > 30, "⭐⭐⭐ High",
+    [ROI %] > 15, "⭐⭐ Medium",
+    [ROI %] > 5,  "⭐ Low",
+    "❌ Not Profitable"
 )
+
+-- Premium Amenities Score
+Premium Score = 
+(IF([Parking] = "Yes", 1, 0)) +
+(IF([Pool]    = "Yes", 1, 0)) +
+(IF([Gym]     = "Yes", 1, 0)) +
+(IF([Elevator]= "Yes", 1, 0))
+```
+
+---
+
+## Project Structure
+
+```
+real-estate-growth-tracker/
+│
+├── realstate.pbix            # Main Power BI project file
+├── README.md                 # Project documentation
+│
+├── screenshots/              # Dashboard screenshots
+│   ├── dashboard1.png
+│   └── dashboard2.png
+│
+└── data/                     # Source data (if applicable)
+    └── real_estate_data.csv
+```
+
+---
+
+## How to Run
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/real-estate-growth-tracker.git
+   ```
+
+2. **Open the file**
+   - Install [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
+   - Open `realstate.pbix`
+
+3. **Explore the dashboards**
+   - Navigate between the 3 pages using the tab bar at the bottom
+   - Use slicers (Property Type, City, Country) to filter dynamically
+   - Click toggle buttons to switch between **Avg Price** and **Price per m²** views
+   - Hold `Ctrl + Click` on buttons when in Edit mode
+
+---
+
+## Author
+
+**Your Name**  
+- GitHub: [@your-username](https://github.com/your-username)  
+- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
+
+---
+
+## License
+
+This project is for educational and portfolio purposes.
